@@ -1,0 +1,17 @@
+<div class="container-fluid">
+    <div *ngFor="let category of categories" class="category">
+        <h1>{{ category.name }}</h1>
+        <div class="item-container">
+            <div *ngFor="let item of category.items" class="item">
+                <div class="item-content">
+                    <h4>{{ item.name }}</h4>
+                    <p>{{ item.description }}</p>
+                </div>
+                <div class="buttons">
+                    <input class="quantity" type="number" id="quantity" min="1" max="20" />
+                    <button class="btn btn-primary">Add to cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

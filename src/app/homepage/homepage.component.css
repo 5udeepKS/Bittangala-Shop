@@ -1,0 +1,40 @@
+.container-fluid {
+    overflow: auto; 
+    background-color: rgb(185, 230, 237); 
+}
+
+.category {
+    margin-top: 20px;
+}
+
+.item-container {
+    display: flex;
+    padding: 3px;
+    overflow-x: auto;
+    width: 100%;
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.item {
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.item-content {
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+#quantity, .btn {
+    margin: 10px;
+}
+
+  
